@@ -18,5 +18,9 @@ game_on = True
 while game_on:
     time.sleep(0.1)
     screen.update()
-    car.making_cars()
+    car.making_car()
     car.move_cars()
+
+    if player.ycor() > 275:
+        car.speed_up()
+        player.new_level()

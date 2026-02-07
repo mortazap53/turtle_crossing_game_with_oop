@@ -8,10 +8,11 @@ Move_steps_or_speed = 5
 class CarManager:
     def __init__(self):
         self.cars = []
+        self.speed = Move_steps_or_speed
 
-    def making_cars(self):
-        number = random.randint(1,6)
-        if number == 6:
+    def making_car(self):
+        number = random.randint(1,5)
+        if number == 5:
             turtle = Turtle()
             turtle.penup()
             turtle.color(random.choice(Colors))
@@ -22,5 +23,7 @@ class CarManager:
 
     def move_cars(self):
         for car in self.cars:
-            car.setx(car.xcor() - Move_steps_or_speed)
+            car.setx(car.xcor() - self.speed)
 
+    def speed_up(self):
+        self.speed += Move_steps_or_speed
