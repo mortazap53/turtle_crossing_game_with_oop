@@ -9,6 +9,31 @@ This project focuses on:
 * Game loops and collision detection, which help us to practice basic python like loops and conditions
 * Clean separation of responsibilities between classes, in order to practice my logic of programming
 
+=> The steps to the end of project:
+ What things I do the certain path is the in the below:
+ 1. Having an overview and making a plan and checklist up to the end of the project.
+ 2. The plan:
+     1. Turtle crossing:
+        screen, field
+        starting position
+        sitting steps
+        finishing line
+        moving turtle
+        expressing the onkey on the screen
+     2. Making the cars:
+        set the starting position
+        creating in random y posiotion
+        moving the cars, looping throught the cars list
+        detecting if the player reach the final line 
+     4. Game over logic:
+        detecting the collision with cars
+     5. Score:
+        creating the score and showing it
+        tracking score
+        adding score
+        updating the scores
+ 3. Editing
+    
 => Gameplay
 
 * Press SPACE to move the turtle forward
