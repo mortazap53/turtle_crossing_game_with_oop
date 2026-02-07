@@ -16,5 +16,7 @@ screen.onkey(player.move, "space")
 
 game_on = True
 while game_on:
-    car.making_cars()
+    time.sleep(0.1)
     screen.update()
+    car.making_cars()
+    car.move_cars()

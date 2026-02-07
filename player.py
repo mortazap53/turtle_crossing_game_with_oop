@@ -11,6 +11,7 @@ class Player(Turtle):
         self.setheading(90)
         self.penup()
         self.goto(Starting_position)
+
     def move(self):
         if self.ycor() < Finishing_line:
             self.forward(Move_distance)
