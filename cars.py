@@ -10,9 +10,9 @@ class CarManager:
         self.cars = []
         self.speed = Move_steps_or_speed
 
-    def making_car(self):
-        number = random.randint(1,5)
-        if number == 5:
+    def create_car(self):
+        number = random.randint(1,3)
+        if number == 3:
             turtle = Turtle()
             turtle.penup()
             turtle.color(random.choice(Colors))

@@ -7,6 +7,12 @@ Finishing_line = 280
 class Player(Turtle):
     def __init__(self):
         super().__init__()
+        line = Turtle()
+        line.pensize(5)
+        line.penup()
+        line.goto(-300, 275)
+        line.pendown()
+        line.forward(600)
         self.shape("turtle")
         self.setheading(90)
         self.penup()
